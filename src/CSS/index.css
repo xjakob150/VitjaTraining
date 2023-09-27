@@ -1,0 +1,11 @@
+*   {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucia Grande" , monospace;
+    background: linear-gradient(180deg, #c0c4c2, #333333);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
