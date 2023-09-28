@@ -5,17 +5,17 @@ export default function Kontakt() {
         <form>
             <div className="form-group">
             <label for="ime">ime:</label>
-            <input type="text" id="ime" name="ime" required/><br/>
+            <input type="text" id="ime" name="ime" required/>
             </div>
 
             <div className="form-group">
             <label for="priimek">priimek:</label>
-            <input type="text" id="priimek" name="priimek" required/><br/>
+            <input type="text" id="priimek" name="priimek" required/>
             </div>
 
             <div className="form-group">
             <label for="zadeva">zadeva:</label>
-            <textarea id="zadeva" name="zadeva" rows="4" required></textarea><br/>
+            <textarea id="zadeva" name="zadeva" rows="4" required></textarea>
             </div>
 
             <div className="form-group">

@@ -33,7 +33,7 @@ function App() {
       <div className="container">
         {component}
       </div>
-    </>
+   </>
   );
 }
 

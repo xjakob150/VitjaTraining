@@ -5,6 +5,8 @@ import App from './App';
 import "./CSS/navbar.css"
 import "./CSS/form.css"
 import "./CSS/index.css"
+import "./CSS/pictures.css"
+import "./CSS/home.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

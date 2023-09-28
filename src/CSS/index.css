@@ -9,3 +9,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+h1 {
+    font-size: 4rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Text color */
+    text-align: center;
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Adjust letter spacing for style */
+    margin-bottom: 20px; /* Add some space below the heading */
+    /* Add any additional styles or background colors as desired */
+}

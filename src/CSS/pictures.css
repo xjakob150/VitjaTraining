@@ -1,0 +1,15 @@
+.animated-image {
+    opacity: 0;
+    width: 80%;
+    height: 80%;
+    animation: fadeIn 1s ease-in-out forwards; ;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
