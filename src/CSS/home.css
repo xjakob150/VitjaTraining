@@ -11,5 +11,5 @@
 .container-home {
     display: flex;
     justify-content: space-evenly;;
-    gap: 10px; /* Adjust the gap between columns and rows as needed */
+    gap: 20px; /* Adjust the gap between columns and rows as needed */
 }

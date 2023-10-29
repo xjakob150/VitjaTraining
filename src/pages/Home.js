@@ -1,10 +1,10 @@
 export default function Home() {
     return (
     <>
+        <div>
+        </div>
         <div className="container-home">
-            <p className="citat">"Izguba ni opcija. Vsi morajo uspeti."</p>
-            <img src="./vitja.jpg" alt="Vitja" className="animated-image"/>
-            <p className="citat">Arnold Schwarzenegger</p>
+            <img src="./Vitja1.jpg" alt="Vitja" className="animated-image"/>
         </div>
     </>
     )
