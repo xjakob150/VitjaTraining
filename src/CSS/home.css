@@ -13,3 +13,9 @@
     justify-content: space-evenly;;
     gap: 20px; /* Adjust the gap between columns and rows as needed */
 }
+
+.container-all {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+

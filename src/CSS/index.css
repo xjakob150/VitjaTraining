@@ -17,6 +17,6 @@ h1 {
     text-align: center;
     text-transform: uppercase; /* Convert text to uppercase */
     letter-spacing: 2px; /* Adjust letter spacing for style */
-    margin-bottom: 20px; /* Add some space below the heading */
+    margin-bottom: 2%; /* Add some space below the heading */
     /* Add any additional styles or background colors as desired */
 }
