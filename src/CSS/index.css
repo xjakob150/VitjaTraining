@@ -5,11 +5,11 @@
 body {
     margin: 0;
     font-family: "Lucia Grande" , monospace;
-    background: linear-gradient(180deg, #c0c4c2, #333333);
+    background: linear-gradient(180deg, #c0c4c2, #369cb3);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+    
 h1 {
     font-size: 4rem; /* Adjust the font size as needed */
     font-weight: bold;
