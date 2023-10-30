@@ -4,7 +4,7 @@ import Bio from "./pages/Bio"
 import Home from "./pages/Home"
 import Kontakt from "./pages/Kontakt"
 import Navbar from './components/Navbar';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 
 function App() {
   let component
@@ -30,13 +30,15 @@ function App() {
   }
   return (
     <>
-      <div className='app'>
+    <div className='page-container'>
+      <div className='content-wrap'>
         <Navbar/>
-        <div className="container">
-          {component}
+          <div className="container">
+            {component}
+          </div>
         </div>
         <Footer/>
-      </div>
+    </div>
    </>
   );
 }

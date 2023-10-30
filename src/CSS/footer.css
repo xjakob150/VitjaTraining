@@ -17,7 +17,7 @@
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Add underline on hover for links */
+    color:#f0a500
 }
 
 /* Create a subtle border at the top of the footer */

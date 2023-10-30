@@ -21,15 +21,18 @@ h1 {
     /* Add any additional styles or background colors as desired */
 }
 
-.app {
+.paragraph-content {
+    font-family: "Lucia Grande" , monospace;
+    font-size: 1.75rem;
+    color:aqua
+}
+
+.page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow: hidden;
-  }
+}
 
-  .content {
-    flex-grow: 1;
-    padding: 20px;
-    overflow-y: auto;
-  }
+.content-wrap {
+    flex:1;
+}
