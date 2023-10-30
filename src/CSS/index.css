@@ -36,3 +36,8 @@ h1 {
 .content-wrap {
     flex:1;
 }
+
+.container {
+    margin-left: 8%;
+    margin-right: 8%;
+}
