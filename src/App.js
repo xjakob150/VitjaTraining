@@ -4,6 +4,7 @@ import Bio from "./pages/Bio"
 import Home from "./pages/Home"
 import Kontakt from "./pages/Kontakt"
 import Navbar from './components/Navbar';
+import Footer from "./components/Footer"
 
 function App() {
   let component
@@ -29,9 +30,12 @@ function App() {
   }
   return (
     <>
-      <Navbar/>
-      <div className="container">
-        {component}
+      <div className='app'>
+        <Navbar/>
+        <div className="container">
+          {component}
+        </div>
+        <Footer/>
       </div>
    </>
   );

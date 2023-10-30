@@ -7,6 +7,7 @@ import "./CSS/form.css"
 import "./CSS/index.css"
 import "./CSS/pictures.css"
 import "./CSS/home.css"
+import "./CSS/footer.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,54 @@
+/* Footer Styles */
+.footer {
+    background-color: #1e1f21; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding at the top and bottom */
+    text-align: center; /* Center-align the content */
+    font-size: 1.5rem; /* Text size */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+/* Create a subtle border at the top of the footer */
+.footer::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+/* Add some spacing between the border and the text */
+.footer p {
+    margin-top: 15px;
+}
+
+/* Center-align the social media icons */
+.footer .social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the social media icons (you can replace these with your own icons) */
+.footer .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hover effect for social media icons */
+.footer .social-icons a:hover {
+    color: #f0a500; /* Change the color on hover */
+}
