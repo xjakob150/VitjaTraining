@@ -11,7 +11,7 @@ body {
 }
     
 h1 {
-    font-size: 4rem; /* Adjust the font size as needed */
+    font-size: 2rem; /* Adjust the font size as needed */
     font-weight: bold;
     color: #333; /* Text color */
     text-align: center;
@@ -40,4 +40,5 @@ h1 {
 .container {
     margin-left: 8%;
     margin-right: 8%;
+    margin-bottom: 2%;
 }

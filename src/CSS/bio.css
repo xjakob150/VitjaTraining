@@ -1,0 +1,12 @@
+.container-bio {
+    background-color: aliceblue;
+    display: flex;
+}
+
+.column1-bio {
+    flex: 1;
+}
+
+.column2-bio {
+    flex: 2;
+}
