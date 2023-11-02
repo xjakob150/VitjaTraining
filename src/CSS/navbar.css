@@ -11,6 +11,9 @@
     align-items: stretch;
     gap: 2rem;
     padding: 1rem 2rem;
+    top:0;
+    left:0;
+    position: sticky;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
