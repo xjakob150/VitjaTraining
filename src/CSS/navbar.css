@@ -4,7 +4,7 @@
 }
 
 .nav {
-    background-color: #333;
+    background-color: #1e1f21;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@
     width: 100%; /* Make the button as wide as its container */
     padding: 10px 20px; /* Add padding for height and width */
     font-size: 1.5rem; /* Adjust the font size as needed */
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .active {

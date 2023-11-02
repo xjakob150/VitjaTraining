@@ -1,0 +1,37 @@
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-slider img {
+    width: 65%;
+    height: 65%;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .image-slider button {
+    background-color: #1e1f21;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    padding: 15px 15px;
+    cursor: pointer;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: background-color 0.3s;
+  }
+
+  .image-slider button:hover {
+    background-color: #969595;
+  }
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
