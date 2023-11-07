@@ -6,7 +6,7 @@ export default function Bio() {
             </div>
             <div className="column2-bio">
                 LAALALALA
-            </div>s
+            </div>
         </div>
     )
 }
