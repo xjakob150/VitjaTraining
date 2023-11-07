@@ -10,6 +10,7 @@ import "./CSS/home.css"
 import "./CSS/footer.css"
 import "./CSS/imageSlider.css"
 import "./CSS/bio.css"
+import "./CSS/card.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,9 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;   
+    background-color: #1e1f21;
+    color: #fff;
+}
