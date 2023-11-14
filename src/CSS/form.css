@@ -1,38 +1,42 @@
 .form-container {
-    width: 60%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px; /* Adding space below the label */
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

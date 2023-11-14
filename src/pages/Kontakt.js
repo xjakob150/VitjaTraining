@@ -2,7 +2,7 @@ export default function Kontakt() {
     return (<>
     <h1>Kontakt</h1>
     <div className="form-container">
-        <form>
+        <form action="send_email.php" method="post">
             <div className="form-group">
             <label for="ime">ime:</label>
             <input type="text" id="ime" name="ime" required/>
@@ -19,7 +19,7 @@ export default function Kontakt() {
             </div>
 
             <div className="form-group">
-            <input type="submit" value="Submit"/>
+                <input type="submit" value="Submit"/>
             </div>
         </form>
     </div>

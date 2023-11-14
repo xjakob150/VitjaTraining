@@ -11,14 +11,13 @@ body {
 }
     
 h1 {
-    font-size: 2rem; /* Adjust the font size as needed */
+    font-size: 2rem;
     font-weight: bold;
-    color: #333; /* Text color */
+    color: #333;
     text-align: center;
-    text-transform: uppercase; /* Convert text to uppercase */
-    letter-spacing: 2px; /* Adjust letter spacing for style */
-    margin-bottom: 2%; /* Add some space below the heading */
-    /* Add any additional styles or background colors as desired */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
 }
 
 .paragraph-content {
@@ -41,4 +40,16 @@ h1 {
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 2%;
+}
+
+.container-cenik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e8eb;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px; 
+    margin-right: 20%;
+    margin-left: 20%;
 }
